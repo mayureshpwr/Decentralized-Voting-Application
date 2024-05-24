@@ -15,7 +15,7 @@ mongoose
   .catch((err) => console.error(err));
 
 // Middleware
-app.use(cors(["https://decentralized-voting-application-ten.vercel.app/"]));
+app.use(cors(["https://decentralized-voting-application-seven.vercel.app/"]));
 app.use(bodyParser.json());
 app.use(express.json());
 

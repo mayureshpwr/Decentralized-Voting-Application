@@ -1,0 +1,86 @@
+.navbar{
+    background-color: #18153f26;
+    box-shadow: 0px 0px 10px #5a7bff;
+    /* opacity: 0.3; */
+    /* 0 4px 30px rgba(0, 0, 0, 0.1); rember */
+
+    padding: 0.8rem;
+}
+.Container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoAndName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.logoAndName p{
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.Container img{
+    width:3.5rem;
+    height:3.5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbarAuth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.usericon{
+    color: #eee;
+}
+.disconnectbutton{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100px;
+    background-color: #0505f9;
+    color: white;
+    cursor: pointer;
+}
+
+.metamaskWallet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.navbarLoginBVutton{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to left bottom, #4d1fcf, #8e1acc, #bb20c8, #e031c4, #ff48c0);
+    color: white;
+    cursor: pointer;
+    width: 120px;
+}

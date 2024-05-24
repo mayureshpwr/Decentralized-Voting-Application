@@ -1,0 +1,187 @@
+/* Global styles */
+:root {
+  --bgSoft: rgb(98, 98, 98, 20%);
+}
+
+/* Container */
+.votingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+/* Voting Box */
+.votingBox {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%; /* Adjusted width for mobile */
+  padding: 1rem;
+  background: var(--bgSoft);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(197, 197, 197, 0.3);
+  min-height: 30vh;
+}
+
+/* Voting Content */
+.votingContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Candidate Input Box */
+.candidateInputBox {
+  border-radius: 1rem;
+  width: 100%;
+  background-color: var(--bgSoft);
+  padding: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.candidateInputBox::placeholder {
+  color: white;
+  font-weight: 600;
+}
+
+/* Button Conditions */
+.buttonCondtions {
+  margin-top: 1rem;
+}
+
+/* Heading */
+.votingBox h1 {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+/* Winner Card */
+.winnercard {
+  margin-top: 1rem;
+  width: 90%; /* Adjusted width for mobile */
+  padding: 10px;
+  background-color: rgb(24, 34, 55);
+  border-radius: 4px;
+}
+
+/* Remaining Time */
+.remaningTime {
+  color: #eeee;
+  text-align: center;
+}
+
+.remaningTime span {
+  color: red;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+/* Voting Input */
+.VotingInput {
+  margin-top: 3rem;
+}
+
+.candidateNamelabel {
+  color: #eeee;
+}
+
+.VotingInput input {
+  margin-top: 0.6rem;
+}
+
+input::placeholder {
+  color: #eee;
+}
+
+/* Candidate Box */
+.candidateBox {
+  width: 90%; /* Adjusted width for mobile */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  background: var(--bgSoft);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(197, 197, 197, 0.3);
+  min-height: 40vh;
+}
+
+/* Table */
+table {
+  width: 100%; /* Adjusted width for mobile */
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin: 0.5rem 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+th {
+  background-color: var(--bgSoft);
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: var(--bgSoft); /* Hover row color */
+}
+
+/* Button Group */
+.buttonGroup {
+  margin-top: 1rem;
+}
+
+/* Login to Vote Button */
+.loginToVoteButton {
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(to right, #cf1f83, #cf009a, #c700b6, #b200d6, #8910f9);
+  color: white;
+  cursor: pointer;
+  width: 100%; /* Adjusted width for mobile */
+}
+
+/* Vote Button */
+.VoteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjusted width for mobile */
+  margin-top: 1rem;
+  background-color: #ff2493;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.disabled {
+  background-color: #808080;
+  background-color: #ced4da;
+  color: #6c757d;
+  cursor: not-allowed;
+}
